@@ -1,0 +1,58 @@
+ul li{
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    position: relative;
+    overflow: hidden;
+    &:before {
+      content: "";
+      position: absolute;
+      z-index: -1;
+      left: 0;
+      right: 100%;
+      bottom: 0;
+      background: #40b636;
+      height: 4px;
+      -webkit-transition-property: right;
+      transition-property: right;
+      -webkit-transition-duration: 0.3s;
+      transition-duration: 0.3s;
+      -webkit-transition-timing-function: ease-out;
+      transition-timing-function: ease-out;
+    }
+    &:hover:before {
+      right: 0;
+    }
+  }
+  nav{
+    box-shadow: 0 6px 6px -4px rgba(127, 201, 139, 0.555);
+    padding: 2px;
+    padding-left: 25px;
+    overflow: hidden;    
+  }
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+
+  #navbarColor03 img{
+    width: 100px;
+    margin-right: 340px;
+  }
+  @media only screen and (max-width: 600px) {
+    #navbarColor03 img{
+    display: none
+   }
+   .navbar-brand{
+       display: none;
+   }
+   #mobile-img{
+       display: block !important;
+       width: 56px;
+   }
+  }
+  .goog-te-banner-frame{visibility:hidden !important;}
+  #body-main{top:0px !important;}

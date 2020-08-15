@@ -1,0 +1,41 @@
+.wrapper{
+    position: relative;
+    z-index: 1;
+ 
+}
+.wrapper .bg{
+    background: url('https://i.ibb.co/BC0cp9N/subscribe.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: .4;
+    width: 100%;
+    height: 100%;
+}
+
+.form-box {
+    max-width: 500px;
+    margin: auto;
+    padding: 50px;
+    background: #ffffff;
+    border: 10px solid #3332320a;
+  }
+  
+  h1, p {
+    text-align: center;
+    font-size: 23px;
+    
+  }
+  
+  input, textarea {
+    width: 100%;
+  }
+  img{
+    width: 108px;
+    height: 41px;
+  }

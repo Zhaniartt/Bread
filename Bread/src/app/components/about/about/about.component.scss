@@ -1,0 +1,72 @@
+.wrapper{
+    display: flex;
+    justify-content: space-around;
+    background-image: url('../../../../assets/images/bg/home-product.jpg');
+    height: 550px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size:cover;  
+}
+.portret {
+    border: 1px solid rgba(150, 167, 153, 0.308);
+    border-radius: 4px;
+    padding: 5px;
+    width: 362px;
+    height: 463px;
+    height: 463px;
+
+  }
+  audio{
+    border: 1px solid rgba(150, 167, 153, 0.308);
+    width: 625px !important;
+    margin-bottom: 10px;
+  }
+
+  .portret:hover {
+    box-shadow: 0 0 2px 1px rgba(23, 155, 41, 0.548);
+  }
+  .video-img{
+    width: 625px;
+    height: 251px;
+    }
+  a{
+    position: absolute;
+    margin-bottom: 20px;
+  }
+  .imgs-wrapp{
+    display: flex;
+    flex-direction: column;
+
+  }
+  .floral{
+    width: 138px;
+    height: 43px;
+    margin-left: 89px;
+    position: relative;
+    margin-top: -19px;
+  }
+  .florals{
+    width: 300px;
+    position: relative;
+    height: 170px;
+    margin-bottom: -130px;
+    margin-left: 30px;
+  }
+  .vl {
+    border-left: 6px solid green;
+    height: 200px;
+  }
+.top-logo{
+  width: 73px;
+    height: 76px;
+    position: relative;
+    margin-top: 192px;
+    margin-left: -144px;
+}
+p{
+  width: 625px;
+  text-align: justify;
+}
+.info-wrapper{
+  margin-bottom: 20px;
+}

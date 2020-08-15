@@ -1,0 +1,35 @@
+<div class="wrapper">
+  <div class="bg"></div>
+  <div style="position: relative">
+      <!-- the position of the parent container must be set to relative -->
+      <!-- It is really important to set loaderId for non-master loader -->
+      <ngx-ui-loader pbColor="#32CD32" fgsColor="#32CD32"	 bgsColor="#32CD32" [loaderId]="'loader-02'"></ngx-ui-loader>
+    </div>
+  <div style="padding-top: 50px; padding-bottom: 50px;">
+        <div class="form-box">
+          <div>
+              <img src="https://i.ibb.co/XC2yQXw/floral.png" alt="">
+              <h1>Свържете се с нас</h1>
+          </div>
+              <form [formGroup]="FormData" (ngSubmit)="onSubmit(FormData.value)">
+                  <div class="form-group">
+                    <label for="name">Име</label>
+                    <input class="form-control" id="name" type="text" name="Name" formControlName="Name">
+                  </div>
+                  <div class="form-group">
+                    <label for="email">Емайл</label>
+                    <input class="form-control" id="email" type="email" name="Email" formControlName="Email">
+                  </div>
+                
+                  <div class="form-group">
+                    <label for="message">Съобщение</label>
+                    <textarea class="form-control" formControlName="Comment" name="Comment"></textarea>
+                  </div>
+                  <input class="btn btn-primary" type="submit" value="Изпрати" [disabled]="!FormData.valid" />
+                </form>
+        
+    
+   </div>
+  </div>
+
+</div>

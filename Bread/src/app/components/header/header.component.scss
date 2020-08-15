@@ -1,0 +1,112 @@
+@import url(https://fonts.googleapis.com/css?family=Dancing+Script);
+.wrapper-header{
+  background-image: url('../../../assets/images/background.png');
+  height: 550px;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size:auto;  
+}
+#bakery-log{
+    position: sticky;
+    margin-left: 610px;
+    margin-top: 60px;
+    opacity: 0.5;
+}
+#floral{
+  height: 40px;
+  width: 124px;
+  margin-left: 655px;
+  margin-top: 60px;
+}
+.img-wrapp{
+  margin-bottom: 20px;
+}
+h3{
+  color: #1a3a22; 
+  font-family: 'Snell Roundhand', cursive; 
+  font-size: 27px;
+  letter-spacing: 0.4px;
+  word-spacing: 2px;
+  color: #000000;
+  font-weight: normal;
+  text-decoration: none;
+  font-variant: normal;
+  text-transform: none;
+      text-align: center; 
+      text-shadow: 0 1px 1px #fff;
+}
+.bread-sect{
+  margin-left: 455px;
+  position: relative;
+  margin-top: -170px;
+}
+
+hr.style-three {
+  height: 30px;
+  width: 30%;
+  border-style: solid;
+  border-color: black;
+  border-width: 1px 0 0 0;
+  border-radius: 20px;
+  }
+  hr.style-three:before {
+  display: block;
+  content: "";
+  height: 30px;
+  margin-top: -31px;
+  border-style: solid;
+  border-color: black;
+  border-width: 0 0 1px 0;
+  border-radius: 20px;
+  }
+  .about{
+    margin-left: 50px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+
+  }
+  .paragraph-wrapp{
+    background-image: url('https://i.ibb.co/Vp8B42H/set.png');
+    height: 450px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size:auto;  
+    background-position: right;
+  }
+  .underline {
+    text-decoration: none; 
+    position: relative; 
+    
+  }   
+
+ .underline:after {
+     position: absolute;
+     content: '';
+     height: 2px;
+   /* adjust this to move up and down. you may have to adjust the line height of the paragraph if you move it down a lot. */
+     bottom: -4px; 
+
+
+    /****** 
+    optional values below 
+    ******/
+     
+   left: 0;
+     right: 0;
+   width: 20%;
+   background: rgb(13, 15, 13);
+   
+   /* optional animation */
+   -o-transition:.5s;
+     -ms-transition:.5s;
+     -moz-transition:.5s;
+     -webkit-transition:.5s;
+     transition:.5s;
+ }
+
+
+/* optional hover classes used with anmiation */
+ .underline:hover:after {
+   width: 80%;
+   background: black;
+ }
