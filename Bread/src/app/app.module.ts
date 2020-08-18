@@ -15,6 +15,8 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { ContactService } from './components/contacts/contacts/contact.service';
 import { NgxSpinnerModule } from "ngx-spinner";
+import { MDBBootstrapModule } from 'angular-bootstrap-md';
+
 import {
   NgxUiLoaderModule,
   NgxUiLoaderConfig,
@@ -22,6 +24,8 @@ import {
   POSITION,
   PB_DIRECTION
 } from 'ngx-ui-loader';
+import { UsefulComponent } from './components/useful/useful.component';
+import { RecipesComponent } from './components/recipes/recipes.component';
 
 const ngxUiLoaderConfig: NgxUiLoaderConfig = {
   bgsColor: 'green',
@@ -41,6 +45,8 @@ const ngxUiLoaderConfig: NgxUiLoaderConfig = {
     ProductsComponent,
     ContactsComponent,
     AboutComponent,
+    UsefulComponent,
+    RecipesComponent,
   ],
   imports: [
     BrowserModule,
@@ -48,6 +54,7 @@ const ngxUiLoaderConfig: NgxUiLoaderConfig = {
     ReactiveFormsModule,
     HttpClientModule,
     NgxSpinnerModule,
+    MDBBootstrapModule.forRoot(),
     NgxUiLoaderModule.forRoot(ngxUiLoaderConfig)
   ],
   providers: [ContactService],

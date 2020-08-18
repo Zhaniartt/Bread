@@ -4,13 +4,15 @@ import { ContactsComponent } from './components/contacts/contacts/contacts.compo
 import { HeaderComponent } from './components/header/header.component';
 import { AboutComponent } from './components/about/about/about.component';
 import { ProductsComponent } from './components/products/products/products.component';
+import { UsefulComponent } from './components/useful/useful.component';
 
 
 const routes: Routes = [
   {path: '' , component: HeaderComponent},
   {path: 'contact', component: ContactsComponent},
   {path: 'about', component: AboutComponent},
-  {path: 'products', component: ProductsComponent}
+  {path: 'products', component: ProductsComponent},
+  {path: 'useful', component: UsefulComponent}
 ];
 
 @NgModule({

@@ -1,0 +1,49 @@
+.header-one{
+    display: flex;
+    flex-direction: column;
+    width: 725px;
+    text-align: justify;
+    text-justify: inter-word;
+    padding-left: 80px;
+    padding-top: 30px;
+}
+.carousel-wrapp{
+    position: relative;
+    margin-top: -63px;
+}
+h2{
+    font-family: 'Pacifico', cursive;
+    color:#222d40;
+    text-decoration: #2c9b44 underline dotted;
+    text-decoration-skip:ink;
+    opacity:.9
+}
+h3{
+    font-family: 'Pacifico', cursive;
+    color:#222d40;
+    text-decoration: #2c9b44 underline dotted;
+    text-decoration-skip:ink;
+    opacity:.9
+}
+h5{
+    font-family: 'Pacifico', cursive;
+    color:#222d40;
+}
+.text-section{
+    display: flex;
+    flex-direction: row;
+}
+.einkorn{
+    margin-top: 70px;
+    margin-left: 70px;
+    
+}
+.einkorn img{
+    width: 500px;
+    height: 300px;
+}
+.right-sect-text{
+    width: 625px;
+    text-align: justify;
+    text-justify: inter-word;
+}
